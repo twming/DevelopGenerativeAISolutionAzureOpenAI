@@ -117,4 +117,26 @@ if __name__ == '__main__':
 ```
 python chat-app.py
 ```
-5. 
+# DevelopGenerativeAISolutionAzureOpenAI
+Setup:
+```
+Windows credentials:
+Use these credentials to sign into Windows:
+
+User name: Admin
+Password: Pa55w.rd
+Azure credentials
+Use these credentials to sign into Azure:
+
+Email address: User1-52350971@LODSPRODMCA.onmicrosoft.com
+Password: A@4r+gQ8Smm0
+Azure resources
+Use these names when creating resources in Azure
+
+Resource group: ResourceGroup1
+Azure AI Foundry Project: project52350971
+Azure AI Foundry resource: A valid name for your Azure AI Foundry resource
+For all other resources, use the default name.
+```
+
+
