@@ -1,4 +1,25 @@
 # DevelopGenerativeAISolutionAzureOpenAI
+Setup:
+```
+Windows credentials:
+Use these credentials to sign into Windows:
+
+User name: Admin
+Password: Pa55w.rd
+Azure credentials
+Use these credentials to sign into Azure:
+
+Email address: User1-52350883@LODSPRODMCA.onmicrosoft.com
+Password: rKnS8h#1B+m0
+Azure resources
+Use these names when creating resources in Azure
+
+Resource group: ResourceGroup1
+Azure AI Foundry Project: project52350883
+Azure AI Project Hub: hub52350883
+For all other resources, use the default name.
+```
+
 0. Login to https://ai.azure.com, create project and deploy gpt-4o model
 1. 1. Go to Visual Studio Code Terminal, git clone the repository
 ```
