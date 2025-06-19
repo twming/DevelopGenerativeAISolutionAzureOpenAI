@@ -1,15 +1,16 @@
 # DevelopGenerativeAISolutionAzureOpenAI
-- 0. Login to https://ai.azure.com, create project and deploy gpt-4o model
-- 1. Go to Visual Studio Code Terminal, git clone the repository
+0. Login to https://ai.azure.com, create project and deploy gpt-4o model
+1. 1. Go to Visual Studio Code Terminal, git clone the repository
 ```
 git clone https://github.com/microsoftlearning/mslearn-ai-studio
 ```
-- 2. Setup the environment and install python package
+2. Setup the environment and install python package
 ```
 python -m venv labenv
 ./labenv/Scripts/Activate.ps1
 pip install python-dotenv azure-identity azure-ai-projects azure-ai-inference
 ```
+3. update the python file in chat-app/chat-app.py
 ```
 import os
 
@@ -91,3 +92,8 @@ def main():
 if __name__ == '__main__': 
     main()
 ```
+4. Run the python
+```
+python chat-app.py
+```
+5. 
